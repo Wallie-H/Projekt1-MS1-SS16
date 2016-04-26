@@ -7,30 +7,74 @@
 
 <body>
 <!--
-1. Vor dem Spiel
+1. Startseite (Vor dem Spiel) 
 - Schaltflaechen fuer Tutorial, Singleplayer und Multiplayer
 
-a)Singleplayer:
+a)Tutorial
+- Schaltfläche Tutorial
+  * Beim betätigen:
+    * Bilddatei + Textfeld + Schaltfläche = "Möchten Sie das Tutorial beginnen?"(Textfeld auf einer Bilddatei)  Ja/Nein(Schaltfläche)
+    * Bei Nein = "Startseite" wird wieder angezeigt
+    
+    * Bei JA = Tutorial startet
+      - Bild (Fiktive Person die das Spiel "erklärt, kommentiert")
+        * Text (erlärung der fiktiven Person) 
+        * (Soundausgaben für fiktive Person?)
+        * Durch klicken, Text (erklärung) überspringen
+        -> Spielffeld wird eingeblendet, um erklärtes umzusetzen 
+
+b)Singleplayer:
 - Schaltfleache Neues Spiel oder Spiel laden
- * bei Neues Spiel, Eingabefeld "Name"
- * bei Spiel Laden, Spielstaende anzeigen
-- Schaltflaechen beiden:
- * Zurueck
- * Spiel starten
+  * bei Neues Spiel, Eingabefeld "Name"
+    * Schaltfläche für freien Slot
+  * bei Spiel Laden, Spielstaende anzeigen
+    * Bilddatei (man verlässt Startseite) + Textfelder (Spieldateiname) + Schaltflächen der Spielstände
+- Schaltflächen beiden:
+  * Zurueck (Man gelangt zur "Startseite" zurück)
+  * Spiel starten (Spiel beginnt)
 
 
-b)Multiplayer:
+c)Multiplayer:
 - Schaltflaeche fuer Online oder Offline
- * bei Offline:
+  * bei Offline:
     - eingabefeld fuer Namen der Spieler (2)
     - Startspieler waehlen
- * bei Online, eigenen Namen
+  * bei Online, eingabefeld für eigenen Namen
+- Schaltflaechen beiden:
+  * Zurueck (Man gelangt zur "Startseite" zurück)
+  * Spiel starten (Spiel beginnt)
 
 
 2. Spielfeld
  - Hintergrundbild
- - Spielbrett (Spielplan, Heimatplan, Ablageplaene)
- - Bilddatei fuer Marken und Plaetchen
+ - Spielbrett (Hauptspielplan, Shop, Heimatplan, Reisespielplan)
+ - Oben eine Leiste
+  -> Schaltfläche Menü
+     * Schaltfläche Spiel speichern (speichert Spiel auf zugewiesenen slot, 
+       unter "Neues Spiel" - siehe oben Singleplayer - schon eingerichtet)
+     * Schalftläche speichern
+     * Schaltfläche zurück
+ 
+  -- Bilddatei Hauptspielplan (Aktionen)
+     * Schaltfläche für Herstllung diverser Rohstoffe
+     * Schaltfläche zum Bauen der Gebäude
+  
+  	-- Schaltfläche Shop 
+  	   -> Bilddatei Shop
+  	   -> Bilddatei Güter
+	      * Schaltfläche für Herstellung diverser Güter wie Kleidung (Man zahlt mit erarbeiteten Rohstoffen)
+	      * Schaltfläche Kauf von Karren und Fuhrwerke
+	      * Schaltfläche für zurück (zu Hauptspielplan)
+	
+	-- Schaltfläche Heimatplan (Dorf Arler)
+	    -> Bilddatei Heimatplan (Dient nur zur Orientierung des aktuellen Stands)
+	       * Schaltfläche für zurück (zu Hauptspielplan)
+	 
+	-- Schaltfläche Reisespielplan
+           -> Bilddatei Reisespielplan
+	      * Schaltflächen für Reisemöglichkeiten
+	      * Schaltfläche für zurück (zu Hauptspielplan)
+  
  - Schaltflaeche "Runde beenden" 
 
 3. Hintergrundmusik
