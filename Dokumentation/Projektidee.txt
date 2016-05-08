@@ -1,9 +1,19 @@
-=== Projektidee Wallie-H, 2016-04-05 ===
+=== Projektidee Wallie-H, Update 2016-05-08 ===
 
-# Dokumentation
+Ich setze das webbassierte Softwareprojekt eines Brettspiels Namens "Arler Erde" um.
 
-~~Keine Idee~~
+Hierbei werden die Spieler über 9 Runden lang in die Rolle eines einfachen Bauerns Schluepfen. 
+Nachdem jeweils beide Spieler Ihren Zug beendet haben (oder falls man alleine ist, man selber), endet eine Runde.
+Punkte werden durch Aktionen, die im Verlauf des Spiels strategisch entschieden werden, erreicht.
+Hierbei ist strategisch so zu verstehen, dass der Spieler mehrere Möglichkeiten hat, Punkte zu erzielen.
+Ziel des Spiels ist es, nach 9 Runden so viele Punkte wie moeglich zu erreichen.
 
+Die Interaktionsmöglichkeiten beider Spieler oder eines einzelnden beschränken sich im Spiel nur auf das Klicken mit der Maus.
+Die Eingabe des Namens oder des Spielstandes ist als Interaktionsmöglichkeit im Spiel nicht relevant und dient nur zur Erkennung
+des jeweiligen Spielers.
+
+
+--
 === Feedback Alpers, 2016-04-08 ===
 
 Kein Problem. Dann erstellen Sie bitten eine Projektbeschreibung zum Brettspiel Arler Erde http://www.brettspiele-report.de/arler-erde/ 
@@ -83,3 +93,33 @@ Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später währen
 
 Viele Grüße,
 Markus Alpers
+
+
+--
+=== Feedback Alpers, 2016-04-29 ===
+
+Zunächst ein formaler Hinweis: Bitte integrieren Sie den Inhalt dieser Datei in die Datei Projektidee.txt, denn jeder, 
+der am Projekt teilnimmt soll ohne nachzudenken sofort die Datei öffnen können, in der die Projektidee sich befindet.
+
+Oben schreiben Sie, dass Ihr Projekt ein Brettspiel ist. Das ist nicht richtig: Da Sie keine eigene Idee für ein Softwareprojekt hatten, 
+sollen Sie ein webbasiertes Softwareprojekt auf der Basis dieses Brettspiels entwickeln.
+
+Das beinhaltet auch, dass Sie sich überlegen müssen, welche Interaktionsmöglichkeiten des Spiels Sie übernehmen wollen, 
+welche Sie ändern oder verwerfen wollen. Dazu kommt noch, dass Sie sich überlegen müssen, 
+welche Interaktionsmöglichkeiten sinnvoll hinzukommen können. Schließlich entwickeln Sie ja gerade kein Brettspiel, 
+sondern eine interaktive webbasierte Anwendung.
+
+Als Zusammenfassung ist Ihre Beschreibung gut, ergänzen Sie anschließend die Beschreibung der Interkationsmöglichkeiten jedes Spielers. 
+Beachten Sie dabei bitte, dass Aussagen wie "... die im Verlauf des Spiels strategisch entschieden werden ..." unklar sind, 
+weil das Adjektiv strategisch für sich genommen inhaltsleer ist.
+
+Beachten Sie dabei insbesondere, dass die Beschreibung die Grundlage für die strukturellen Elemente ist.
+
+Wertung 2: Projektbeschreibung: gesamt: 4 / 10
+- Pro Interaktionsmöglichkeit: 0
+- Knappe aber klare Beschreibung: 4
+- Werbeslogans u.ä.: 0
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+
+=== Feedback Ende ===
